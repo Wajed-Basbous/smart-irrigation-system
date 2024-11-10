@@ -10,7 +10,7 @@ def control_irrigation_system():
     print(f"Is it raining? {'Yes' if is_raining else 'No'}")
 
     if soil_moisture < THRESHOLD_MOISTURE and not is_raining:
-        print("Soil moisture is low and it's not raining. Activating irrigation system...")
+        print("Soil moisture is low and it's not raining. Plants need watering. Activating irrigation system...")
     else:
         print("Conditions are sufficient, irrigation system is off.")
 
