@@ -7,3 +7,6 @@ def read_soil_moisture():
 def read_weather_condition():
     """Simulate reading weather condition (True for rain, False for no rain)."""
     return random.choice([True, False])
+
+
+##some changes for testing
